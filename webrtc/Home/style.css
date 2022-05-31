@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+
+#video-container{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+.video-caller{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: block;
+}
