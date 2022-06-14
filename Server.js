@@ -9,7 +9,7 @@ const PORT = 3000 || process.env.PORT;
 // create http server
 const server = http.createServer(app);
 
-//set static folder
+//set static folder 
 app.use(express.static(path.join(__dirname, 'socket')));
 
 //initialize io
