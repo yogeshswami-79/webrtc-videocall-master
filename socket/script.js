@@ -1,4 +1,4 @@
-const socket = io("https://782e-2409-4052-2189-6e09-cdb9-db3e-685d-7d75.ngrok.io");
+const socket = io("");
 
 
 socket.on("message", (msg) => {

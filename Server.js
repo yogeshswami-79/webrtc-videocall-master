@@ -12,11 +12,8 @@ const server = http.createServer(app);
 //set static folder
 app.use(express.static(path.join(__dirname, 'socket')));
 
-app.get("")
-
 //initialize io
 const io = socketio(server);
-
 
 io.on("connection", (socket) => {
     socket.on("msg",data => {
